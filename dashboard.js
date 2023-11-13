@@ -15,7 +15,7 @@
     
  
     
-    const request = new Request('http://localhost:3000/dashboard', {
+    const request = new Request('https://francis-mwaniki.github.io/nodejs-jwt/dashboard', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
