@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
         let token = localStorage.getItem('token');
         console.log(token);
         if (token !== undefined) {
-          window.location.href = '/dashboard';
+          window.location.href = 'https://francis-mwaniki.github.io/nodejs-jwt/dashboard';
         }
        
       })
