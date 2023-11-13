@@ -6,7 +6,7 @@
     console.log('Token:', token);
 
     if (token === undefined) {
-        window.location.href = 'https://francis-mwaniki.github.io/nodejs-jwt/';
+        window.location.href = 'http://localhost:3000/';
         }
 
         if(!token){
@@ -15,7 +15,7 @@
     
  
     
-    const request = new Request('https://francis-mwaniki.github.io/nodejs-jwt/dashboard', {
+    const request = new Request('http://localhost:3000/dashboard', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -32,7 +32,7 @@
     .then(data => {
       console.log('Success:', data);
       if(data.message === undefined){
-        window.location.href = 'https://francis-mwaniki.github.io/nodejs-jwt/';
+        window.location.href = '/';
         return;
       }
       const message = document.getElementById('message');
