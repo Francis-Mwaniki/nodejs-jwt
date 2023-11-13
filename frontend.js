@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
       return;
     }
   
-    fetch('https://francis-mwaniki.github.io/nodejs-jwt/login', {
+    fetch('http://localhost:3000/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
         let token = localStorage.getItem('token');
         console.log(token);
         if (token !== undefined) {
-          window.location.href = 'https://francis-mwaniki.github.io/nodejs-jwt/dashboard';
+          window.location.href = '/dashboard';
         }
        
       })
