@@ -27,7 +27,18 @@
     
     console.log('Request Object:', request);
     
-    fetch(request);
+    fetch(request)
+  .then(response => response.json())
+    .then(data => {
+      console.log('Success:', data);
+      if(data.message === undefined){
+        window.location.href = '/';
+        return;
+      }
+      const message = document.getElementById('message');
+      message.innerHTML = data.message;
+    })
+    
     
   
     const logoutButton = document.getElementById('logoutButton');
