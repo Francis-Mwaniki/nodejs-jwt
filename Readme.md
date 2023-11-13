@@ -14,8 +14,8 @@ Before running the application, ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone git@github.com:Francis-Mwaniki/nodejs-jwt.git
+   
 
 
     ```
