@@ -1,7 +1,8 @@
 # JWT Authentication with Express.js and Frontend 
 
-for some reason this url [URL](https://francis-mwaniki.github.io/nodejs-jwt/) might not work since github pages - doesn't deploy server code 
-This repository contains a simple example of user authentication using JSON Web Tokens (JWT) with an Express.js server and a basic frontend. The server provides protected routes that require authentication, and the frontend demonstrates login and logout functionality.
+-For some reason this url [URL](https://francis-mwaniki.github.io/nodejs-jwt/) might not work since github pages - doesn't deploy server code 
+
+-This repository contains a simple example of user authentication using JSON Web Tokens (JWT) with an Express.js server and a basic frontend. The server provides protected routes that require authentication, and the frontend demonstrates login and logout functionality.
 
 ## Prerequisites
 
