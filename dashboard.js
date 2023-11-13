@@ -6,7 +6,7 @@
     console.log('Token:', token);
 
     if (token === undefined) {
-        window.location.href = '/';
+        window.location.href = 'https://francis-mwaniki.github.io/nodejs-jwt/';
         }
 
         if(!token){
@@ -32,7 +32,7 @@
     .then(data => {
       console.log('Success:', data);
       if(data.message === undefined){
-        window.location.href = '/';
+        window.location.href = 'https://francis-mwaniki.github.io/nodejs-jwt/';
         return;
       }
       const message = document.getElementById('message');
@@ -52,6 +52,6 @@
   
   function logout() {
     localStorage.removeItem('token');
-    window.location.href = '/';
+    window.location.href = 'https://francis-mwaniki.github.io/nodejs-jwt/';
   }
   
